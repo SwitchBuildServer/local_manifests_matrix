@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="SOVIET-ANDROID"
+           fetch="https://github.com/SOVIET-ANDROID" />
+
+  <project path="device/xiaomi/raphael" remote="SOVIET-ANDROID" name="device_xiaomi_raphael"  revision="14.0-matrix" clone-depth="1" />
+  <project path="vendor/xiaomi/raphael" remote="SOVIET-ANDROID" name="vendor_xiaomi_raphael" revision="14.0" clone-depth="1" />
+  <project path="kernel/xiaomi/raphael" remote="SOVIET-ANDROID" name="kernel_raphael_raphael" revision="14.0-matrix" clone-depth="1"/>
+
+  <project path="hardware/xiaomi" remote="SOVIET-ANDROID" name="android_hardware_xiaomi" revision="14.0" />
+
+  <extend-project path="hardware/qcom-caf/sm8150/display"
+          remote="SOVIET-ANDROID"
+          name="platform_hardware_qcom_display"
+          revision="14.0-8150" />
+</manifest>
